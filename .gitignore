@@ -17,3 +17,10 @@ __pycache__/
 # OS junk
 .DS_Store
 Thumbs.db
+
+# Ignore generated outputs, but keep folder structure
+outputs/*
+!outputs/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/netcdf/.gitkeep
+
