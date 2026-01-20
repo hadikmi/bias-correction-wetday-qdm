@@ -1,0 +1,15 @@
+name: wetday-qdm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - xarray
+  - dask
+  - netcdf4
+  - cftime
+  - scipy
+  - matplotlib
+  - tqdm
+  - pyyaml

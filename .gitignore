@@ -1,0 +1,19 @@
+# Data (do not commit)
+data/raw/
+data/outputs/
+outputs/
+
+# NetCDF / rasters
+*.nc
+*.nc4
+*.tif
+*.tiff
+
+# Python junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db

@@ -1,0 +1,16 @@
+climate_glob: "data/raw/cmip6/pr/*.nc"
+gpm_path: "data/raw/gpm/GPM_IMERG_daily_mecca_25yr.nc"
+
+var_gpm: "precipitation"
+var_cmip: "pr"
+
+wet_threshold: 0.1
+
+future_start: "2024-05-01"
+future_end: "2100-12-31"
+
+rolling_days: 3
+interp_method: "nearest"
+
+output_netcdf: "outputs/netcdf/bias_corrected_wetday_qdm.nc"
+output_plot: "outputs/figures/ecdf_annual_maxima.png"
